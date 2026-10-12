@@ -42,7 +42,7 @@ fm_frequencies = {
 
 # OPTION 2: 
 
-def getradio(name):
+def get_radio(name):
 
     for keyy, vvalue in fm_frequencies.items():
         if name == vvalue:
@@ -52,7 +52,7 @@ def getradio(name):
     return 'Not Found'
 
 
-print(getradio('LBC'))
+print(get_radio('LBC'))
 
 
 
